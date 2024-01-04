@@ -234,7 +234,7 @@ With git, clone the course materials to the default home directory
 (/opt/app-root/src) of your workbench.
 
 ```bash
-git clone https://github.com/computate-org/smartabyar-smartvillage-sandbox-course.git ~/smartabyar-smartvillage-sandbox-course
+git clone https://github.com/smartabyar-smartvillage/smartabyar-smartvillage-sandbox-course.git ~/smartabyar-smartvillage-sandbox-course
 ```
 
 It will ask you to enter your username and password. This is where you
@@ -250,7 +250,7 @@ In your Workbench Terminal, clone the smartvillage-operator into your
 workbench with this command.
 
 ```bash
-git clone https://github.com/computate-org/smartvillage-operator.git ~/smartvillage-operator
+git clone https://github.com/smartabyar-smartvillage/smartvillage-operator.git ~/smartvillage-operator
 ```
 
 ### Open the course Jupyter Notebook
