@@ -262,5 +262,5 @@ course Jupyter Notebook.
 - In your workbench, make sure your left sidebar is open. If it’s not,
 press \[ Ctrl \] + \[ b \].
 - Navigate to `smartabyar-smartvillage-sandbox-course`. 
-- Open the first Notebook `01-install-prerequisites.ipynb` and follow the instructions from there. 
+- Open the first Notebook [01-install-prerequisites.ipynb](01-install-prerequisites.ipynb) and follow the instructions from there. 
 
