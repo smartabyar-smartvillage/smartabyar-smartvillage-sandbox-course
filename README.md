@@ -89,8 +89,8 @@ button in the top right of the Developer Sandbox.
 - Click the download link for your operating system.
 
 <img src="pictures/1000020100000168000000AC979C70CCF932ABC5.png" />
-- You'll need to extract the \`oc\` command and place it in your path,
-for example in a \`bin\` directory in your \`$HOME\` directory.
+- You'll need to extract the `oc` command and place it in your path,
+for example in a `bin` directory in your `$HOME` directory.
 
 ```bash
 mkdir -p ~/bin
@@ -139,14 +139,14 @@ deploy resources in your namespace.
 ```
 oc create rolebinding python-edit --clusterrole=edit \
   --serviceaccount=$(oc get project -o \
-  jsonpath={.items\[0\].metadata.name}):python
+  jsonpath={.items[0].metadata.name}):python
 
 oc create role python-edit-rolebindings \
   --verb=get,list,watch,create,update,patch,delete
   --resource=roles,rolebindings
 
 oc create rolebinding python-edit-rolebindings --role=python-edit-rolebindings \
-  --serviceaccount=$(oc get project -o jsonpath={.items\[0\].metadata.name}):python
+  --serviceaccount=$(oc get project -o jsonpath={.items[0].metadata.name}):python
 ```
 
 # OpenShift AI
