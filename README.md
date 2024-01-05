@@ -142,7 +142,7 @@ oc create rolebinding python-edit --clusterrole=edit \
   jsonpath={.items[0].metadata.name}):python
 
 oc create role python-edit-rolebindings \
-  --verb=get,list,watch,create,update,patch,delete
+  --verb=get,list,watch,create,update,patch,delete \
   --resource=roles,rolebindings
 
 oc create rolebinding python-edit-rolebindings --role=python-edit-rolebindings \
