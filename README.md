@@ -241,18 +241,6 @@ It will ask you to enter your username and password. This is where you
 enter your GitHub username, and the token value you copied from GitHub
 earlier. The git credential.helper store should remember your password.
 
-### Clone the smartvillage-operator
-
-We will be using the open source smartvillage-operator to set up the
-rest of the course.
-
-In your Workbench Terminal, clone the smartvillage-operator into your
-workbench with this command.
-
-```bash
-git clone https://github.com/smartabyar-smartvillage/smartvillage-operator.git ~/smartvillage-operator
-```
-
 ### Open the course Jupyter Notebook
 
 A Jupyter Notebook is an interactive, online notebook, and the rest of
