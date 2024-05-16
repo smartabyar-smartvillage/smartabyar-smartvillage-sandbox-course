@@ -146,7 +146,7 @@ oc create role python-edit-rolebindings \
   --resource=roles,rolebindings
 
 oc create rolebinding python-edit-rolebindings --role=python-edit-rolebindings \
-  --serviceaccount=$(oc get project -o jsonpath={.items[0].metadata.name}):python
+  --serviceaccount=$(cat /var/run/secrets/kubernetes.io/serviceaccount/namespace):python
 ```
 
 # OpenShift AI
@@ -247,8 +247,12 @@ A Jupyter Notebook is an interactive, online notebook, and the rest of
 the course be found in the Jupter Notebook. Here is how to find the
 course Jupyter Notebook.
 
+## Next...
+If you have successfully ran all of the commands above, congratulations, you are ready to move on to the next notebook in the course. 
 - In your workbench, make sure your left sidebar is open. If it’s not,
 press \[ Ctrl \] + \[ b \].
 - Navigate to `smartabyar-smartvillage-sandbox-course`. 
 - Open the first Notebook [01-install-prerequisites.ipynb](01-install-prerequisites.ipynb) and follow the instructions from there. 
+
+- If you have additional questions or issues, please [create an issue for the course here](https://github.com/smartabyar-smartvillage/smartabyar-smartvillage-sandbox-course/issues). 
 
